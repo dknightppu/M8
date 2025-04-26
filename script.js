@@ -1,3 +1,6 @@
+console.log('Notification supported?', 'Notification' in window);
+console.log('Current permission:', Notification.permission);
+
 let notificationCount = 0;
 
 document.getElementById('sendNotifBtn').addEventListener('click', () => {
